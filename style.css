@@ -1,0 +1,95 @@
+.header{
+    background-image: url(https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?cs=srgb&dl=pexels-andrei-tanase-1271619.jpg&fm=jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    z-index: 1;
+}
+.fhead{
+    text-align: center;
+    margin: 10px;
+}
+.imgf{
+    font-size: 60px;
+    font-family: fantasy;
+    font-weight: 600;
+    color: white;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+span{
+    font-family:cursive ;
+}
+#btnf{
+    margin-left: 700px;
+    margin-top: 90px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.cimg{
+    height: 11rem;
+}
+.btn2{
+    margin-left: 700px;
+    margin-top: 60px;
+}
+.imgc{
+    height: 80vh;
+}
+h4{
+    font-size: 350%;
+    color:rgb(252, 250, 250);
+}
+.arts{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.collage{
+    margin-top: 30px;
+}
+.caad{
+    height: 200px;
+    width: 300px;
+}
+.imgcards{
+    display: flex;
+    justify-content: space-around;
+}
+.small{
+    display: flex;
+    justify-content: space-evenly;
+}
+.smallogo{
+    width:200px ;
+    height: 200px;
+    border-radius: 50%;
+}
+.flogo{
+    width: 200px;
+}
+.footer{
+    margin-top: 10px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.fb{
+    width: 30px;
+    margin: 5px;
+}
+.insta{
+    color: #358597;
+    font-size: 30px;
+    margin: 5px;
+}
+.fhead{
+    color: #F4A896;
+}
+.fpara{
+    color: #358597;
+}
