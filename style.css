@@ -29,6 +29,11 @@ span{
 .cards{
     display: flex;
     justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.card{
+     box-shadow:none;
+     transition: 0.5s;
 }
 .cimg{
     height: 11rem;
@@ -48,21 +53,21 @@ h4{
     display:flex;
     justify-content: space-evenly;
     margin-top: 60px;
+    flex-wrap: nowrap;
 }
 .collage{
     margin-top: 30px;
 }
-.caad{
-    height: 200px;
-    width: 300px;
-}
 .imgcards{
     display: flex;
     justify-content: space-around;
+    position: relative;
+    flex-wrap: nowrap;
 }
 .small{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 .smallogo{
     width:200px ;
@@ -92,4 +97,63 @@ h4{
 }
 .fpara{
     color: #358597;
+}
+.cont{
+    font-size: 30px;
+}
+.con{
+    font-size: larger;
+}
+.caad{
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+.contt{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    background: rgb(0,0,0,0.6);
+    opacity: 0;
+    transition: 0.5s;
+}
+.contt:hover{
+    opacity: 1;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px 10px;
+}
+@media (max-width:1000px){
+    .imgcards{
+        flex-wrap: wrap;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .arts{
+        flex-wrap: wrap;
+    }
+    .small{
+        flex-wrap: wrap;
+    }
+    #btnf{
+     visibility: collapse;
+    }
+    .btn2{
+        visibility: collapse;
+    }
+    .header{
+        background-size:100%;
+        height: 100vh;
+    }
+    .imgf{
+        font-size: 40px;
+        margin-left: 200px;
+    }
 }
